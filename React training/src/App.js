@@ -5,6 +5,8 @@ import Welcome from "./Component/Welcome";
 import Hello from "./Component/HelloWithJSX";
 import HelloProps from "./Component/Props";
 import Message from "./Component/MessageWithState";
+import Counter from "./Component/Counter";
+
 
 class App extends Component {
   render() {
@@ -17,6 +19,7 @@ class App extends Component {
           <p>Rashid Paragraph</p>
         </HelloProps>
         <Message />
+        <Counter/>
       </div>
     );
   }
