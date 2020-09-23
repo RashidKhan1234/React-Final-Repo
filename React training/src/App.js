@@ -6,7 +6,8 @@ import Hello from "./Component/HelloWithJSX";
 import HelloProps from "./Component/Props";
 import Message from "./Component/MessageWithState";
 import Counter from "./Component/Counter";
-
+import ClickMe from "./Component/EventClick";
+import ClickfromClass from "./Component/eventClickFromClass";
 
 class App extends Component {
   render() {
@@ -19,7 +20,9 @@ class App extends Component {
           <p>Rashid Paragraph</p>
         </HelloProps>
         <Message />
-        <Counter/>
+        <Counter />
+        <ClickMe />
+        <ClickfromClass />
       </div>
     );
   }
