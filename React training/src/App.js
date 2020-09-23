@@ -9,6 +9,7 @@ import Counter from "./Component/Counter";
 import ClickMe from "./Component/EventClick";
 import ClickfromClass from "./Component/eventClickFromClass";
 import EventBind from "./Component/EventBindFour";
+import PareCom from "./Component/ParentComponent";
 class App extends Component {
   render() {
     return (
@@ -24,6 +25,7 @@ class App extends Component {
         <ClickMe />
         <ClickfromClass />
         <EventBind />
+        <PareCom />
       </div>
     );
   }
