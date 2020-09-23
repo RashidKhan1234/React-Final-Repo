@@ -8,7 +8,7 @@ import Message from "./Component/MessageWithState";
 import Counter from "./Component/Counter";
 import ClickMe from "./Component/EventClick";
 import ClickfromClass from "./Component/eventClickFromClass";
-
+import EventBind from "./Component/EventBindFour";
 class App extends Component {
   render() {
     return (
@@ -23,6 +23,7 @@ class App extends Component {
         <Counter />
         <ClickMe />
         <ClickfromClass />
+        <EventBind />
       </div>
     );
   }
