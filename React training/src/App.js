@@ -10,6 +10,7 @@ import ClickMe from "./Component/EventClick";
 import ClickfromClass from "./Component/eventClickFromClass";
 import EventBind from "./Component/EventBindFour";
 import PareCom from "./Component/ParentComponent";
+import Conditional from "./Component/COnditionalBased";
 class App extends Component {
   render() {
     return (
@@ -26,6 +27,7 @@ class App extends Component {
         <ClickfromClass />
         <EventBind />
         <PareCom />
+        <Conditional />
       </div>
     );
   }
