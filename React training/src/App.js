@@ -12,6 +12,9 @@ import EventBind from "./Component/EventBindFour";
 import PareCom from "./Component/ParentComponent";
 import Conditional from "./Component/COnditionalBased";
 import PersonList from "./Component/PersonList";
+import CssClass from "./Component/InlineStyle";
+import styles from "./Style.module.css";
+import "./Style.css";
 class App extends Component {
   render() {
     return (
@@ -30,6 +33,11 @@ class App extends Component {
         <PareCom />
         <Conditional />
         <PersonList />
+        <CssClass />
+        <div>
+          <h2 className={styles.success}>success</h2>
+          <h2 className="error">error</h2>
+        </div>
       </div>
     );
   }
