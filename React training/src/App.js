@@ -15,11 +15,13 @@ import PersonList from "./Component/PersonList";
 import CssClass from "./Component/InlineStyle";
 import styles from "./Style.module.css";
 import FormCont from "./Component/FormControl";
+import LifeCycle from "./Component/LifeCycleA";
 import "./Style.css";
 class App extends Component {
   render() {
     return (
       <div className="App">
+        <LifeCycle />
         <FormCont />
         <Greet />
         <Welcome name="Rashid Props Class" />

@@ -6,7 +6,7 @@ class FormContr extends Component {
     this.state = {
       username: "",
       textarea: "",
-      select: ""
+      select: ".Net"
     };
   }
   UserNameHandler = (event) => {
