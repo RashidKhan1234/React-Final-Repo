@@ -14,11 +14,13 @@ import Conditional from "./Component/COnditionalBased";
 import PersonList from "./Component/PersonList";
 import CssClass from "./Component/InlineStyle";
 import styles from "./Style.module.css";
+import FormCont from "./Component/FormControl";
 import "./Style.css";
 class App extends Component {
   render() {
     return (
       <div className="App">
+        <FormCont />
         <Greet />
         <Welcome name="Rashid Props Class" />
         <Hello />
