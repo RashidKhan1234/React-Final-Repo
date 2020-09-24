@@ -11,6 +11,7 @@ import ClickfromClass from "./Component/eventClickFromClass";
 import EventBind from "./Component/EventBindFour";
 import PareCom from "./Component/ParentComponent";
 import Conditional from "./Component/COnditionalBased";
+import PersonList from "./Component/PersonList";
 class App extends Component {
   render() {
     return (
@@ -28,6 +29,7 @@ class App extends Component {
         <EventBind />
         <PareCom />
         <Conditional />
+        <PersonList />
       </div>
     );
   }
