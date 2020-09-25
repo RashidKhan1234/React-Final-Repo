@@ -10,7 +10,7 @@ class Focus_Ref extends Component {
     };
   }
   componentDidMount() {
-    // this.Ref.current.focus();
+    this.Ref.current.focus();
     if (this.CBRef) {
       this.CBRef.focus();
     }
