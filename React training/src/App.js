@@ -19,13 +19,15 @@ import LifeCycle from "./Component/LifeCycleA";
 import Fragment from "./Component/FragmentChild";
 import PureComp from "./Component/ParentCom";
 import FocusRef from "./Component/RefExampleFocus";
-import ParentFw from './Component/ParentFWRef'
+import ParentFw from "./Component/ParentFWRef";
+import Portal from "./Component/PortalDemo";
 import "./Style.css";
 class App extends Component {
   render() {
     return (
       <div className="App">
-        <ParentFw/>
+        <Portal />
+        <ParentFw />
         <FocusRef />
         <PureComp />
         <Fragment />
