@@ -16,7 +16,7 @@ function Person() {
     }
   ];
   const personList = person.map((pers, index) => (
-    <PersonDisplay key={pers.id} person={pers} />
+    <PersonDisplay key={index} person={pers} />
   ));
   return <div>{personList}</div>;
 }
