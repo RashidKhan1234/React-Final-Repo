@@ -18,11 +18,13 @@ import FormCont from "./Component/FormControl";
 import LifeCycle from "./Component/LifeCycleA";
 import Fragment from "./Component/FragmentChild";
 import PureComp from "./Component/ParentCom";
+import FocusRef from "./Component/RefExampleFocus";
 import "./Style.css";
 class App extends Component {
   render() {
     return (
       <div className="App">
+        <FocusRef />
         <PureComp />
         <Fragment />
         <LifeCycle />
