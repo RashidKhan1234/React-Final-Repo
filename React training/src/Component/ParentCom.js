@@ -1,6 +1,7 @@
 import React, { Component } from "react";
-import RegularCom from "./RegulatCom";
-import PureComp from "./PureComponent";
+// import RegularCom from "./RegulatCom";
+// import PureComp from "./PureComponent";
+import Memo from "./Memo";
 class Parent extends Component {
   constructor() {
     super();
@@ -16,10 +17,12 @@ class Parent extends Component {
     }, 2000);
   }
   render() {
+    console.log("Parent");
     return (
       <>
-        <PureComp name={this.state.name} />
-        <RegularCom name={this.state.name} />
+        <Memo name={this.state.name} />
+        {/* <PureComp name={this.state.name} />
+        <RegularCom name={this.state.name} /> */}
       </>
     );
   }
