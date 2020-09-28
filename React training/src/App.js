@@ -21,11 +21,18 @@ import PureComp from "./Component/ParentCom";
 import FocusRef from "./Component/RefExampleFocus";
 import ParentFw from "./Component/ParentFWRef";
 import Portal from "./Component/PortalDemo";
+import Hero from "./Component/Hero";
+import Error from "./Component/ErrorBound";
 import "./Style.css";
 class App extends Component {
   render() {
     return (
       <div className="App">
+        <Error>
+          <Hero heroName="Batman" />
+          <Hero heroName="X-Man" />
+          <Hero heroName="Joker" />
+        </Error>
         <Portal />
         <ParentFw />
         <FocusRef />
